@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.6.0]
+
+* Fix AGP 8 issues, add namespace and bump compilesdk to 34
+
 ## [0.5.0]
 
 * Bump Android SDK and Kotlin version
