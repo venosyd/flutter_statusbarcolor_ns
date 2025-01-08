@@ -3,7 +3,7 @@ group 'com.sameer.flutterstatusbarcolor.flutterstatusbarcolor'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.8.10'
+    ext.kotlin_version = '2.1.0'
     repositories {
         mavenCentral()
         google()
@@ -31,6 +31,9 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
